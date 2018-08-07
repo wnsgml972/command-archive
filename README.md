@@ -17,8 +17,9 @@
 
 <br/>
 
-* local 환경에서 통신할 때 대역폭 한계 지정 (가상 머신끼리, enp0s8은 인터페이스)
+* local 환경에서 통신할 때 대역폭 한계 지정,  (가상 머신끼리, enp0s8은 인터페이스)
 
 <pre>
 # sudo tc qdisc add dev enp0s8 root handle 1:0 tbf rate 900Mbit burst 500k latency 1ms
+# sudo tc qdisc change dev enp0s8 root handle 1:0 tbf rate 900Mbit burst 500k latency 1ms
 </pre>
