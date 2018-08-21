@@ -25,4 +25,5 @@ echo "[mysqld]
 
 sudo ufw allow 3306/tcp # tcp port 허용
 sudo /etc/init.d/mysql restart # 다시 시작
-mysql -uroot -p
+mysql -uroot -p1
+status
