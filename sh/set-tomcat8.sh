@@ -7,3 +7,4 @@ tar -zxvf apache-tomcat-8.5.33.tar.gz
 mv apache-tomcat-8.5.33 tomcat8
 cd tomcat8/bin
 sudo ./startup.sh
+sudo rm /home/user/apache-tomcat-8.5.33.tar.gz
