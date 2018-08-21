@@ -25,7 +25,12 @@
 </pre>
 
 
+<hr/>
+
 <br/>
+
+<h2>set up 프로그램</h2>
+
 
 * [set-mysql.sh](/sh/set-mysql.sh)
 
