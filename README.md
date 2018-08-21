@@ -20,3 +20,9 @@
 <pre>
 # sudo tc qdisc add dev enp0s8 root handle 1:0 tbf rate 900Mbit burst 500k latency 1ms
 </pre>
+
+
+<br/>
+* [set-mysql.sh](/sh/set-mysql.sh)
+* [set-ffserver.sh](/sh/set-ffserver.sh)
+* [set-tomcat8.sh](/sh/set-tomcat8.sh)
