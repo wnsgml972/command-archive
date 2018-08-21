@@ -63,3 +63,6 @@ hash -r
 echo "MANPATH_MAP $HOME/bin $HOME/ffmpeg_build/share/man" >> ~/.manpath
 . ~/.profile
 sudo apt install ffmpeg
+cd /home/user/ffmpeg_sources/
+sudo rm *.tar.*
+sudo rm *.zip
