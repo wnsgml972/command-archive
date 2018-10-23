@@ -40,7 +40,7 @@
 
 
 
-<h2>set up 프로그램</h2>
+## 알고리즘 Setting Program
 
 * make.sh
 
@@ -49,7 +49,7 @@ rm test.cpp
 vim test.cpp
 </pre>
 
-* cpp_compile.sh
+* compile.sh
 
 <pre>
 gcc -o test test.cpp -lstdc++
