@@ -37,3 +37,21 @@
 * [set-ffserver.sh](/sh/set-ffserver.sh)
 
 * [set-tomcat8.sh](/sh/set-tomcat8.sh)
+
+
+
+<h2>set up 프로그램</h2>
+
+* make.sh
+
+<pre>
+rm test.cpp
+vim test.cpp
+</pre>
+
+* cpp_compile.sh
+
+<pre>
+gcc -o test test.cpp -lstdc++
+./test
+</pre>
