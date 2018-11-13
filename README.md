@@ -53,6 +53,6 @@ vim test.cpp
 * compile.sh
 
 <pre>
-gcc -o test test.cpp -lstdc++
+g++ -o test test.cpp
 ./test
 </pre>
