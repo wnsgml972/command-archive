@@ -31,6 +31,7 @@
 
 <h2>set up 프로그램</h2>
 
+* [gcc, gpp compile version update](/sh/update-compiler.sh)
 
 * [set-mysql.sh](/sh/set-mysql.sh)
 
